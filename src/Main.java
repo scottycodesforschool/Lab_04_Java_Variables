@@ -34,7 +34,7 @@ public class Main {
 
         System.out.println("The quotient of " + intOperandA + " and " + intOperandB + " is " + intQuotient);
 
-        intModulo =  intOperandA % intOperandB; // Moduo operator
+        intModulo =  intOperandA % intOperandB; // Modulo operator
 
         System.out.println("The modulo of " + intOperandA + " and " + intOperandB + " is " + intModulo);
 
