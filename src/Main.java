@@ -7,15 +7,14 @@ public class Main {
         int intDifference = 5;
         int intProduct = 21;
         int intQuotient = 4;
-        int intModulus = 3;
+        int intModulo = 3;
 
         double doubleOperandA = 25.50;
         double doubleOperandB = 7.21;
-        double doubleSum = 32.78;       // Will store the sum of doubleOperandA and doubleOperandB
-        double doubleProduct = 8.40;   // Will store the product
-        double doubleDifference = 18.30; // Will store the difference
-        double doubleQuotient = 7.80;  // Will store the quotient
-        double doubleModulo = 4.24;    // Will store the modulo
+        double doubleSum = 32.78;
+        double doubleProduct = 8.40;
+        double doubleDifference = 18.30;
+        double doubleQuotient = 7.80;
 
         System.out.println("--- Integer Operations ---");
 
@@ -35,9 +34,9 @@ public class Main {
 
         System.out.println("The quotient of " + intOperandA + " and " + intOperandB + " is " + intQuotient);
 
-        intModulus = intOperandA % intOperandB; // Modulus operator
+        intModulo =  intOperandA % intOperandB; // Moduo operator
 
-        System.out.println("The modulo of " + intOperandA + " and " + intOperandB + " is " + intModulus);
+        System.out.println("The modulo of " + intOperandA + " and " + intOperandB + " is " + intModulo);
 
         System.out.println("\n--- Double Operations ---");
 
@@ -57,9 +56,7 @@ public class Main {
 
         System.out.println("The quotient of " + doubleOperandA + " and " + doubleOperandB + " is " + doubleQuotient);
 
-        doubleModulo = doubleOperandA % doubleOperandB;
-
-        System.out.println("The modulo of " + doubleOperandA + " and " + doubleOperandB + " is " + doubleModulo);
+        System.out.println("\n--- Questions ---");
 
         // The cost of my lunch
         double myLunchCost = 18.50;
